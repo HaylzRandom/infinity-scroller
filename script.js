@@ -75,6 +75,7 @@ const getPhotos = async () => {
 	} catch (error) {
 		// Catch Error
 		alert('Something has went wrong');
+		console.log(error);
 	}
 };
 
